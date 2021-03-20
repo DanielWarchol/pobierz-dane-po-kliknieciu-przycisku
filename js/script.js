@@ -15,9 +15,9 @@ fetch('https://akademia108.pl/api/ajax/get-post.php')
         let hr = document.createElement('hr');
 
         pId.innerText = `Post ID: ${data.id}`;
-        pUserId.innerText = `User ID: ${data.UserId}`;
-        pTitle.innerText = `Title ID: ${data.Title}`;
-        pBody.innerText = `Body ID: ${data.Body}`;
+        pUserId.innerText = `User ID: ${data.userId}`;
+        pTitle.innerText = `Title ID: ${data.title}`;
+        pBody.innerText = `Body ID: ${data.body}`;
 
         document.body.appendChild(pId);
         document.body.appendChild(pUserId);
